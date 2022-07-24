@@ -1,0 +1,80 @@
+body{
+ background: #FEFCFF;
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    background: #242132;
+    padding: 20px;
+    color: #FEFCFF;
+    display: block;
+}
+
+
+.logo{
+    width: 200px;
+}
+
+.logo p{
+ font-size: 30px;
+ text-align: center;
+ padding: 0px;
+}
+
+.menu{
+display: inline-block;
+ margin: 0px;
+ padding: 10px;
+}
+
+.menu li{
+    padding: 10px;
+    margin: 5px;
+    background: #FEFCFF;
+    list-style: none;
+    display: inline-block;
+    
+}
+
+.menu li a{
+    
+    color: #242132;
+    text-decoration: none;
+}
+
+.flex-container{
+    display: flex;
+    padding: 10px;
+    background:#746cfe;
+}
+
+.flex-container div{
+    width: 45%;
+    padding: 30px;
+    margin: 10px;
+}
+
+.titulos{
+    
+}
+.gorros{
+    display: flex;
+        padding: 10px;
+        margin: 10px;
+        align-content: center;
+        flex-direction: row;
+        width: 100%;
+}
+
+.gorros article >  div{
+    width: 260px;
+    height: 350x;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius:10px;
+    border: 1px solid orangered;
+    flex-direction: row;
+    margin: 10px;
+    align-content: center;
+}
+
